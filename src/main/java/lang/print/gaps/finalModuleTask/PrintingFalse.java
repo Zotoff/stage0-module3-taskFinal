@@ -5,5 +5,11 @@ public class PrintingFalse {
         int first = 9;
         int second = -17;
         //write code here
+        boolean result = true;
+        if (second < 0) {
+            result = false;
+        }
+
+        System.out.print(result);
     }
 }
